@@ -1,0 +1,62 @@
+body {
+    background-color: #0f172a; /* azul oscuro casi negro */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #3b82f6; /* azul */
+}
+
+.caja {
+    width: 420px;
+    margin: auto;
+    background-color: #000000; /* negro */
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #3b82f6; /* borde azul */
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #e5e7eb; /* texto claro */
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    background-color: #111827; /* negro suave */
+    color: #ffffff;
+    border: 1px solid #3b82f6;
+}
+
+button {
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px;
+    background-color: #2563eb; /* azul fuerte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8; /* azul más oscuro */
+}
+
+#salida {
+    margin-top: 15px;
+    background-color: #020617; /* negro */
+    padding: 10px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.icono {
+    width: 55px;
+    display: block;
+    margin: auto;
+}

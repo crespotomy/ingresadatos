@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Información Personal</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <script src="app.js"></script>
+</head>
+
+<h1>Formulario de Datos Personales</h1>
+
+<div class="caja">
+
+    <label>Nombre completo</label>
+    <input type="text" id="nombreCompleto">
+
+    <label>Fecha de nacimiento</label>
+    <input type="date" id="nacimiento">
+
+    <label>Tipo de sangre</label>
+    <input type="text" id="sangre">
+
+    <label>Altura (pulgadas)</label>
+    <input type="number" id="alturaPulg">
+
+    <label>Peso (kilogramos)</label>
+    <input type="number" id="pesoKg">
+
+    <label>Género</label>
+    <select id="sexo">
+        <option value="">Seleccione</option>
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+    </select>
+
+    <button onclick="procesar()">Procesar datos</button>
+
+    <div id="salida"></div>
+
+</div>
+
+<body>
+</body>
+</html>
